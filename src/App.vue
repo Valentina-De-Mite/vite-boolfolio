@@ -26,8 +26,9 @@ export default {
 
 <template>
   <header>
-    <nav class="navbar navbar-expand bg-dark d-flex shadow">
+    <nav class="navbar navbar-expand bg-violet d-flex shadow">
       <div class="container text-light">
+        <img src="./assets/logo.png" alt="" srcset="" />
         <div class="nav navbar-nav justify-content-center fs-4">
           <a class="nav-item nav-link" href="#">Home</a>
           <a class="nav-item nav-link" href="#">Project</a>
@@ -49,10 +50,10 @@ export default {
     </div>
 
     <div class="container">
-      <section class:projects>
+      <section class="projects">
         <div class="row row-cols-1 row-cols-sm-2 row cols-lg-3 g-4">
           <div class="col" v-for="project in projects.data">
-            <div class="card">
+            <div class="card p-3">
               <img src="" alt="" />
               <h3>{{ project.title }}</h3>
 
@@ -63,10 +64,19 @@ export default {
       </section>
     </div>
   </main>
+
+  <footer>
+    <div class="row"></div>
+    conta
+  </footer>
 </template>
 
 <style scoped>
 a {
   color: white;
+}
+
+.bg-violet {
+  background-color: rgba(29, 9, 53, 255);
 }
 </style>
