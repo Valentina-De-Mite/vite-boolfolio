@@ -130,7 +130,28 @@ export default {
   </main>
 
   <footer>
-    <div class="row"></div>
+    <div class="row bg-violet py-5">
+      <div class="container d-flex g-4 light justify-content-evenly">
+        <div class="col-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iure
+          non neque exercitationem qui vel, obcaecati excepturi necessitatibus,
+          ut maxime tempora eos, molestiae earum illum nulla magnam similique
+          sunt optio.
+        </div>
+        <div class="col-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit totam
+          qui veniam eius enim! Pariatur, hic repudiandae cum voluptates enim
+          necessitatibus excepturi mollitia corporis sequi praesentium error
+          dolore sint vitae?
+        </div>
+        <div class="col-3">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo magnam
+          eligendi architecto repellat veritatis magni velit dignissimos eius.
+          Deserunt amet quasi quaerat consectetur, tempore suscipit mollitia
+          quidem provident vel explicabo?
+        </div>
+      </div>
+    </div>
   </footer>
 </template>
 
