@@ -11,7 +11,7 @@ export default {
         <img class="" src="./assets/logo.png" alt="" srcset="" />
         <div class="col-8 d-flex justify-content-between nav navbar-nav fs-4">
           <div class="d-flex">
-            <a class="nav-item nav-link light" href="#">Home</a>
+            <router-link class="nav-link light" to="/">Home</router-link>
             <router-link class="nav-link light" to="/projects"
               >Projects</router-link
             >
@@ -48,7 +48,9 @@ export default {
     </div>
   </header>
 
-  <router-view></router-view>
+  <main>
+    <router-view></router-view>
+  </main>
 
   <footer>
     <div class="row bg-violet py-5">
